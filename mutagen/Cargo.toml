@@ -1,0 +1,10 @@
+[package]
+name = "mutagen"
+version = "0.1.0"
+authors = ["CodeBunny", "Patrick Chieppe <patrick.chieppe@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.8.3"
+mutagen-derive = { path = "../mutagen-derive" }
+serde = { version = "1.0.119", optional = true }
